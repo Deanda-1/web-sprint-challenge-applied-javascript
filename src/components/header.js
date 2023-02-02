@@ -29,7 +29,7 @@ const Header = (title, date, temp) => {
 
 const headerAppender = (selector) => {
   const select =document.querySelector(selector);
-  select.appendChild(header("Ohio", "2/1/2023", "23f"));
+  select.appendChild(Header("Ohio", "2/1/2023", "23f"));
   return select;
   // TASK 2
   // ---------------------
